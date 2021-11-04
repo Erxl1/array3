@@ -17,10 +17,10 @@ def main():
     temp_list = tk_3_fun(list_data, list_size)
     print("TK-3 result:")
     print(temp_list)
-    temp_list = tk_3_fun(list_data, list_size)
+    temp_list = tk_4_fun(list_data, list_size)
     print("TK-4 result:")
     print(temp_list)
-    temp_list = tk_3_fun(list_data, list_size)
+    temp_list = tk_5_fun(list_data, list_size)
     print("TK-5 result:")
     print(temp_list)
     return 0
