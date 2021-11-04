@@ -1,7 +1,6 @@
 def create_list():
     list_size = int(input('List size:'))
     list_data = set_list(list_size)
-    print(list_data)
     return list_data
 
 
