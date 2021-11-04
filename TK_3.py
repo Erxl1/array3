@@ -3,7 +3,7 @@ def tk_3_fun(list_data, list_size):
     for i in range(list_size):
         summary += float(list_data[i])
     average = summary / list_size
-    list_data_tk_3 = []
+    list_data_tk_3 = [0]*list_size
     for i in range(list_size):
         list_data_tk_3[i] = list_data[i] / average
     return list_data_tk_3

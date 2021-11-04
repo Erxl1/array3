@@ -1,5 +1,4 @@
-def create_list():
-    list_size = int(input('List size:'))
+def create_list(list_size):
     list_data = set_list(list_size)
     return list_data
 
